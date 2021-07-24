@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0E254CD7ABB218AB7A4FF2 /* Pods_Hechio_Todoey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1637521186660215D7D6805 /* Pods_Hechio_Todoey.framework */; };
+		5B843ED2250E21CF00CB41D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B843ED1250E21CF00CB41D3 /* Item.swift */; };
+		5B843ED4250E21DA00CB41D3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B843ED3250E21DA00CB41D3 /* Category.swift */; };
+		5B843ED6250E429500CB41D3 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B843ED5250E429500CB41D3 /* SwipeTableViewController.swift */; };
 		5BA700982507A879005348F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA700972507A879005348F7 /* AppDelegate.swift */; };
 		5BA7009A2507A879005348F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA700992507A879005348F7 /* SceneDelegate.swift */; };
-		5BA7009C2507A879005348F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7009B2507A879005348F7 /* ViewController.swift */; };
+		5BA7009C2507A879005348F7 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7009B2507A879005348F7 /* TodoListViewController.swift */; };
 		5BA7009F2507A879005348F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7009D2507A879005348F7 /* Main.storyboard */; };
-		5BA700A22507A879005348F7 /* Hechio_Todoey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA700A02507A879005348F7 /* Hechio_Todoey.xcdatamodeld */; };
 		5BA700A42507A88F005348F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA700A32507A88F005348F7 /* Assets.xcassets */; };
 		5BA700A72507A88F005348F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA700A52507A88F005348F7 /* LaunchScreen.storyboard */; };
 		5BA700B22507A88F005348F7 /* Hechio_TodoeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA700B12507A88F005348F7 /* Hechio_TodoeyTests.swift */; };
 		5BA700BD2507A88F005348F7 /* Hechio_TodoeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA700BC2507A88F005348F7 /* Hechio_TodoeyUITests.swift */; };
+		5BA99728250D0356009A47F5 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA99727250D0356009A47F5 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B843ED1250E21CF00CB41D3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5B843ED3250E21DA00CB41D3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5B843ED5250E429500CB41D3 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		5BA700942507A879005348F7 /* Hechio Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hechio Todoey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA700972507A879005348F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA700992507A879005348F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BA7009B2507A879005348F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BA7009B2507A879005348F7 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		5BA7009E2507A879005348F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BA700A12507A879005348F7 /* Hechio_Todoey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hechio_Todoey.xcdatamodel; sourceTree = "<group>"; };
 		5BA700A32507A88F005348F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA700A62507A88F005348F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA700A82507A88F005348F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		5BA700B82507A88F005348F7 /* Hechio TodoeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hechio TodoeyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA700BC2507A88F005348F7 /* Hechio_TodoeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hechio_TodoeyUITests.swift; sourceTree = "<group>"; };
 		5BA700BE2507A88F005348F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA99727250D0356009A47F5 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		7BB0607B4B175FE14D5F6813 /* Pods-Hechio Todoey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hechio Todoey.debug.xcconfig"; path = "Target Support Files/Pods-Hechio Todoey/Pods-Hechio Todoey.debug.xcconfig"; sourceTree = "<group>"; };
+		93E4ECE82A0D858D1C8E92EB /* Pods-Hechio Todoey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hechio Todoey.release.xcconfig"; path = "Target Support Files/Pods-Hechio Todoey/Pods-Hechio Todoey.release.xcconfig"; sourceTree = "<group>"; };
+		E1637521186660215D7D6805 /* Pods_Hechio_Todoey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hechio_Todoey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0E254CD7ABB218AB7A4FF2 /* Pods_Hechio_Todoey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A11FBD4FFF946574023129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BB0607B4B175FE14D5F6813 /* Pods-Hechio Todoey.debug.xcconfig */,
+				93E4ECE82A0D858D1C8E92EB /* Pods-Hechio Todoey.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B2166962508FEC900FCB063 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B843ED1250E21CF00CB41D3 /* Item.swift */,
+				5B843ED3250E21DA00CB41D3 /* Category.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		5B2166972508FEEC00FCB063 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA7009B2507A879005348F7 /* TodoListViewController.swift */,
+				5BA99727250D0356009A47F5 /* CategoryViewController.swift */,
+				5B843ED5250E429500CB41D3 /* SwipeTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B2166982508FF0D00FCB063 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BA7009D2507A879005348F7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B2166992508FF5F00FCB063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA700A32507A88F005348F7 /* Assets.xcassets */,
+				5BA700A52507A88F005348F7 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5BA7008B2507A879005348F7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				5BA700B02507A88F005348F7 /* Hechio TodoeyTests */,
 				5BA700BB2507A88F005348F7 /* Hechio TodoeyUITests */,
 				5BA700952507A879005348F7 /* Products */,
+				19A11FBD4FFF946574023129 /* Pods */,
+				A60AD1332A9CAE18451051F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +161,11 @@
 			children = (
 				5BA700972507A879005348F7 /* AppDelegate.swift */,
 				5BA700992507A879005348F7 /* SceneDelegate.swift */,
-				5BA7009B2507A879005348F7 /* ViewController.swift */,
-				5BA7009D2507A879005348F7 /* Main.storyboard */,
-				5BA700A32507A88F005348F7 /* Assets.xcassets */,
-				5BA700A52507A88F005348F7 /* LaunchScreen.storyboard */,
+				5B2166962508FEC900FCB063 /* Data Model */,
+				5B2166972508FEEC00FCB063 /* Controllers */,
+				5B2166982508FF0D00FCB063 /* Views */,
+				5B2166992508FF5F00FCB063 /* Supporting Files */,
 				5BA700A82507A88F005348F7 /* Info.plist */,
-				5BA700A02507A879005348F7 /* Hechio_Todoey.xcdatamodeld */,
 			);
 			path = "Hechio Todoey";
 			sourceTree = "<group>";
@@ -131,6 +188,14 @@
 			path = "Hechio TodoeyUITests";
 			sourceTree = "<group>";
 		};
+		A60AD1332A9CAE18451051F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1637521186660215D7D6805 /* Pods_Hechio_Todoey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA700C12507A88F005348F7 /* Build configuration list for PBXNativeTarget "Hechio Todoey" */;
 			buildPhases = (
+				C906F4F6452CF0C31A5AFF30 /* [CP] Check Pods Manifest.lock */,
 				5BA700902507A879005348F7 /* Sources */,
 				5BA700912507A879005348F7 /* Frameworks */,
 				5BA700922507A879005348F7 /* Resources */,
+				B48873458F72958A006C509D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,15 +324,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B48873458F72958A006C509D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hechio Todoey/Pods-Hechio Todoey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hechio Todoey/Pods-Hechio Todoey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hechio Todoey/Pods-Hechio Todoey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C906F4F6452CF0C31A5AFF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hechio Todoey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BA700902507A879005348F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA7009C2507A879005348F7 /* ViewController.swift in Sources */,
-				5BA700A22507A879005348F7 /* Hechio_Todoey.xcdatamodeld in Sources */,
+				5BA99728250D0356009A47F5 /* CategoryViewController.swift in Sources */,
+				5BA7009C2507A879005348F7 /* TodoListViewController.swift in Sources */,
 				5BA700982507A879005348F7 /* AppDelegate.swift in Sources */,
+				5B843ED6250E429500CB41D3 /* SwipeTableViewController.swift in Sources */,
+				5B843ED2250E21CF00CB41D3 /* Item.swift in Sources */,
 				5BA7009A2507A879005348F7 /* SceneDelegate.swift in Sources */,
+				5B843ED4250E21DA00CB41D3 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +548,7 @@
 		};
 		5BA700C22507A88F005348F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB0607B4B175FE14D5F6813 /* Pods-Hechio Todoey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevehechio.apps.Hechio-Todoey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +568,7 @@
 		};
 		5BA700C32507A88F005348F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E4ECE82A0D858D1C8E92EB /* Pods-Hechio Todoey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +580,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevehechio.apps.Hechio-Todoey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -594,19 +710,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5BA700A02507A879005348F7 /* Hechio_Todoey.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5BA700A12507A879005348F7 /* Hechio_Todoey.xcdatamodel */,
-			);
-			currentVersion = 5BA700A12507A879005348F7 /* Hechio_Todoey.xcdatamodel */;
-			path = Hechio_Todoey.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5BA7008C2507A879005348F7 /* Project object */;
 }
